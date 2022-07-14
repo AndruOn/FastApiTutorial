@@ -4,9 +4,18 @@
 
 create a ptyhon virtual environnement and install all the needed libraries
 
+
+RUn from the project root 
 ```
-conda create -n fastApiEnv python=3.9
-conda install -n fastApiEnv --file requirements.txt
+#first time
+conda create -p env python=3.9
+conda install -p env --file backend/requirements.txt
+
+#when use env from new terminal
+conda activate ./env
+cd backend
+uvicorn main:app --reload
+
 ```
  
 ## Used ressources (bibliography)

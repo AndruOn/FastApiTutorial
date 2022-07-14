@@ -1,4 +1,7 @@
 __pycache__
-.env
-env
+
+env/**
+!env/env_vars.sh
+!env/env_variables.txt
+
 test_db.db

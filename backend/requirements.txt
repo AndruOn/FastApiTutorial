@@ -1,5 +1,9 @@
+#needed libraries in your python environnement
 fastapi
 uvicorn
 
 #for template 
 jinja2
+
+#for static files
+aiofiles
